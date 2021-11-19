@@ -1,0 +1,5 @@
+Zmienną możemy deklarować na trzy sposoby:
+
+* Wykorzystując słowo kluczowe [var](https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Statements/var). Na przykład, var x = 42\. Wykorzystując tą opcje możemy deklarować zarówno zmienne lokalne jak i globalne.
+* Przez podstawienie wartości do zmiennej. Na przykład x = 42\. Jednakże w ten sposób zadeklarować możemy jedynie zmienne globalne, które nie mogą być zmieniane z poziomu lokalnego. W trybie ścisłym wygeneruje nam to ostrzeżenie, stąd też nie jest to preferowana metoda.
+* Za pomocą słowa kluczowego [let (en-US)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let). Na przykład let y = 13\. W tym przypadku deklarujemy zmienną ograniczoną do lokalnej [przestrzeni nazw](https://developer.mozilla.org/pl/docs/Web/JavaScript/Guide/Grammar%5Fand%5Ftypes#variable%5Fscope), o której więcej informacji znajdziesz poniżej.

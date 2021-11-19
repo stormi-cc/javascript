@@ -1,0 +1,1 @@
+#### Uzupełnij pętlę w taki sposób, aby kończyła swoje działanie w momencie, gdy wartość zmiennej i będzie równa 10
